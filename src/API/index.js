@@ -1,6 +1,6 @@
 class Helper {
     static baseURL(){
-        return "http://api.foursquare.com/v2";  //baseURl for not using repeated perpose
+        return "https://api.foursquare.com/v2";  //baseURl for not using repeated perpose
     }
     static auth(){
         const keys = {
