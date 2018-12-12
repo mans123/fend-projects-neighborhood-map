@@ -37,7 +37,7 @@ class App extends Component {
     SquareAPI.getVenueDetails(marker.id).then(res => {
       const newVenue = Object.assign(venue,res.response.venue)
       this.setState({venues:Object.assign(this.state.venues, newVenue)})
-      console.log(newVenue)
+      // console.log(newVenue)
     });
   }
   //handling listitem click
@@ -63,7 +63,7 @@ class App extends Component {
           };
         });
         this.setState({ venues, center, markers });
-      console.log(results)
+      // console.log(results)
     })
   }
   

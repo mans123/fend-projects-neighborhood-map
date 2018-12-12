@@ -59,7 +59,7 @@ import {
           return(
             <MyMapComponent
              {...this.props}
-            googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZokHFrItKZ4myXOstketRIhHUavVQDOY&callback=initMap" //google maps api key
+            googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZokHFrItKZ4myXOstketRIhHUavVQDOY" //google maps api key
             loadingElement={<div style={{ height: `100%` }} />}
             containerElement={<div style={{ height: `100%`, width: `75%` }} />}  //map properties
             mapElement={<div style={{ height: `100%` }} />}
