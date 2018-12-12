@@ -36,8 +36,8 @@ class SideBar extends Component {
   };
   render() {
     return (<div className={"sideBar"}>
-      <div className="header">Hyderabd Food Places</div>
-      <input type={"search"}  id={"searchbar"} placeholder={"Search Venues..."} onChange={this.handlingChange}/>
+      <div className={"header"}>Hyderabd Food Places</div>
+      <input type={"search"}  id={"searchbar"} role={"search"} aria-labelledby={"search Venues"}  placeholder={"Search Venues..."} onChange={this.handlingChange}/>
       <VenueList{...this.props}
                 venues={this.handlingfilterVenues()}
                 listItemClick={this.props.listItemClick}/>
